@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+#topimg{
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+    position:absolute;
+}
+.gradient{
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(20,20,20,1) 1%, rgba(69,69,126,0) 8%);
+    position:absolute;
+
+}
+.subtop{
+    z-index: 99;
+    padding: 5vw;
+    width: 60%;
+}
+.subtop-2{
+    padding-top: 200px;
+    z-index: 99;
+    width: 40%;
+}
+.retangle-box{
+    background-color: rgba(20, 20, 20, 0.456);
+    width:100px;
+    height: 40px;
+    float: right;
+    border-left: 6px;
+    border-left: 6px solid #ffffff;    }
+#posters{
+    background-color: rgba(20,20,20,1);
+}
