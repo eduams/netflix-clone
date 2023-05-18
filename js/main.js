@@ -1,4 +1,6 @@
 var prevScrollpos = window.pageYOffset;
+var resolutionWidth = window.screen.width;
+
 window.onscroll = function() {
     var currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
@@ -9,3 +11,4 @@ window.onscroll = function() {
     prevScrollpos = currentScrollPos;
   }
   
+console.log(resolutionWidth)

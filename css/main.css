@@ -93,6 +93,7 @@ header{
         padding-left: 8px;
     }
 #posters{
+    width: 99%;
     z-index: 99;
     margin-top: -80px;
 }
@@ -125,9 +126,26 @@ element.style {
 }
 .carousel-control-prev {
     justify-content: left !important;
-    width: 5% !important;
+    width: 6% !important;
 }
 .carousel-control-next{
     justify-content: right !important;
-    width: 5% !important;
+    width: 6% !important;
+}
+@media (max-width: 1000px) {
+    .big-res{
+        display: none;
+    }
+    #logo{
+        width: 10vh;
+        height: 4vh;
+    }
+    nav{
+        font-size: small;
+    }
+}
+@media (min-width: 1001px) {
+    .small-res{
+        display: none;
+    }
 }
