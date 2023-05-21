@@ -192,3 +192,17 @@ header{
         display: none
     }
 }
+.grid-footer{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    color: rgb(156, 155, 155);
+}
+.bottom{
+    border: 1px solid rgb(156, 155, 155); /* Define as bordas brancas */
+    background-color: transparent; /* Define a cor de fundo transparente */
+    padding: 5px 5px; /* Define o espaçamento interno do botão */
+    color: rgb(156, 155, 155); /* Define a cor do texto do botão */
+    text-decoration: none; /* Remove a decoração do link */
+    display: inline-block; /* Permite ajustar a largura do botão conforme o conteúdo */
+}
