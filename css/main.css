@@ -197,6 +197,9 @@ header{
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     color: rgb(156, 155, 155);
+    width: 700px; /* Largura da div */
+    margin: 0 auto; /* Margens automáticas para centralizar */
+    font-size: 12px;
 }
 .bottom{
     border: 1px solid rgb(156, 155, 155); /* Define as bordas brancas */
@@ -205,4 +208,13 @@ header{
     color: rgb(156, 155, 155); /* Define a cor do texto do botão */
     text-decoration: none; /* Remove a decoração do link */
     display: inline-block; /* Permite ajustar a largura do botão conforme o conteúdo */
+    font-size: 12px;
+    margin-left: 320px;
+    margin-top: 20px;
+}
+.icon{
+    margin-right: 35px;
+}
+footer{
+    height: 270px;
 }
