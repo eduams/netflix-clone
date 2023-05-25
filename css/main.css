@@ -245,6 +245,9 @@ header{
         height: 70vh;
         overflow: hidden;
     }
+    #carrossel1{
+        height: 100%;
+    }
 /* 
     #posters{
         height: 100px;
