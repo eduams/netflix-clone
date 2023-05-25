@@ -245,7 +245,7 @@ header{
         height: 70vh;
         overflow: hidden;
     }
-
+/* 
     #posters{
         height: 100px;
     }
@@ -264,7 +264,7 @@ header{
     }
     .thumbs img{
         width: 300px;
-    }
+    } */
     footer{
         padding-left: 10vh;
         padding-right: 10vh;
