@@ -4,6 +4,10 @@
 body{
     background: #141414 !important;
 }
+
+html{
+    width: 100%;
+}
 nav{
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.833) 5%, rgba(0,212,255,0) 100%);
     width: 100%;
@@ -217,4 +221,32 @@ header{
 }
 footer{
     height: 270px;
+}
+
+@media (min-width:500px) and (max-width: 820px)
+{
+    header{
+        height: 70vh;
+        overflow: hidden;
+    }
+
+    #posters{
+        height: 100px;
+    }
+    #carrossel1{
+        height: 100%;
+    }
+    .carousel-inner{
+        height: 100%;
+    }
+    .carousel-item{
+        height: 100%;
+    }
+    .thumbs{
+        height: 100%;
+
+    }
+    .thumbs img{
+        width: 300px;
+    }
 }
