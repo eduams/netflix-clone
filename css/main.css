@@ -89,6 +89,13 @@ header{
     position:absolute;
 
 }
+
+
+.numbers{
+    width: 200%;
+    padding-left: 90px;
+}
+
 .subtop{
     z-index: 99;
     padding: 5vw;
@@ -165,6 +172,16 @@ header{
     
 }
 .thumbs img{
+    padding-right: 10px;
+}
+.thumbs-vertical{
+    padding-left: 5vw;
+    width: 13vw;
+    display: flex;
+    flex-direction: row;
+}
+.thumbs-vertical img{
+    margin-left: -56.2%;
     padding-right: 10px;
 }
 .carousel-control-prev{
