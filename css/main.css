@@ -28,6 +28,7 @@ ul {
 }
 
 footer{
+    padding-top: 30px;
     width: 100%;
     justify-content: center;
     padding-left: 40vh;
@@ -199,6 +200,11 @@ header{
 [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
     cursor: pointer;
 }
+
+button h1{
+    font-size: 1vw;
+    margin: 0vw;
+}
 .carousel-control-prev {
     justify-content: left !important;
     width: 6% !important;
@@ -235,6 +241,9 @@ header{
     margin-right: 50%;
 }
 
+.d-block{
+    cursor: pointer;
+}
 
 
 @media (max-width: 1150px) {
@@ -252,11 +261,51 @@ header{
     nav{
         font-size: small;
     }
+
+    .thumbs-vertical img{
+        padding-left: 0px;
+        margin-left: -26.2%;
+        padding-right: 0px;
+    }
+    .numbers{
+        height: 11vw;
+        width: 138%;
+        user-drag: none;
+        pointer-events: none; 
+    }
+    .subtop h5{
+        font-size: max(2vw);
+    }
+    #posters h1{
+        font-size: max(3vw);
+    }
+    footer{
+        padding-left: 8vh;
+        padding-right: 8vh;
+        font-size: 1.2vw;
+    }
+    button h1{
+        font-size: 2vw;
+    }
+    .retangle-box{
+        width:70px;
+        height: 25px;
+        float: right;
+        border-left: 2px;
+        border-left: 4px solid #ffffff;    
+    }
+    .retangle-box img{
+        padding: 0px;
+        margin-top: -2px;
+        padding-left: 8px;
+    }
+    
 }
 @media (min-width: 1151px) {
     .small-res{
         display: none
     }
+    
 }
 
 .icon{
@@ -264,7 +313,7 @@ header{
     height: 20px;
 }
 
-@media (max-width: 820px)
+@media (max-width: 660px)
 {
     header{
         height: 70vh;
@@ -273,29 +322,13 @@ header{
     #carrossel1{
         height: 100%;
     }
-/* 
-    #posters{
-        height: 100px;
+    .subtop h5{
+        font-size: max(3vw);
     }
-    #carrossel1{
-        height: 100%;
-    }
-    .carousel-inner{
-        height: 100%;
-    }
-    .carousel-item{
-        height: 100%;
-    }
-    .thumbs{
-        height: 100%;
-
-    }
-    .thumbs img{
-        width: 300px;
-    } */
     footer{
         padding-left: 10vh;
         padding-right: 10vh;
+        font-size: 2vw;
     }
 
 }
